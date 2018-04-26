@@ -4,3 +4,6 @@ from .models import Job
 def home(request):
     jobs = Job.objects
     return render(request, 'jobs/home.html', {'jobs':jobs})
+
+def eda(request):
+    return render(request, 'jobs/eda.html')
