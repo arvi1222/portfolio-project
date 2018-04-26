@@ -7,3 +7,6 @@ def home(request):
 
 def eda(request):
     return render(request, 'jobs/eda.html')
+
+def investigate_data_set(request):
+    return render(request, 'jobs/investigate_data_set.html')
