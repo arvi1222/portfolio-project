@@ -10,4 +10,5 @@ urlpatterns = [
     path('blog/', include('blog.urls')),
     path('eda/', jobs.views.eda, name='eda'),
     path('investigate_data_set/', jobs.views.investigate_data_set, name='investigate_data_set'),
+    path('data_visualization/', jobs.views.data_visualization, name='data_visualization'),
 ] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT) #so it knows where to find media files

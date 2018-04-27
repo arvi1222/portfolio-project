@@ -10,3 +10,6 @@ def eda(request):
 
 def investigate_data_set(request):
     return render(request, 'jobs/investigate_data_set.html')
+
+def data_visualization(request):
+    return render(request, 'jobs/data_visualization.html')
