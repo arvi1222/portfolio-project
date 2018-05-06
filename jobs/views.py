@@ -13,3 +13,9 @@ def investigate_data_set(request):
 
 def data_visualization(request):
     return render(request, 'jobs/data_visualization.html')
+
+def data_wrangling(request):
+    return render(request, 'jobs/data_wrangling.html')
+
+def machine_learning(request):
+    return render(request, 'jobs/machine_learning.html')
