@@ -61,6 +61,9 @@
               <div class="card mb-4 box-shadow">
                 <img class="card-img-top" src='{{ job.image.url }}'>
                 <div class="card-body">
+                  <p class="card-text">
+                    <a href="{{ job.hyperlink }}">{{ job.title }}</a> <!--possibly change title to new field--> 
+                  </p>
                   <p class="card-text">{{ job.summary }}</p>
                 </div>
               </div>
