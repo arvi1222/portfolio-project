@@ -27,14 +27,14 @@
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav ml-auto">
             <li class="nav-item">
-              <a class="nav-link" href="#projects">Projects</a>
+              <a class="nav-link" href="{% url 'home' %}#projects">Projects</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="{% static 'appen_resume.pdf' %}">Resume</a>
             </li>
-            <li class="nav-item">
+            <!--<li class="nav-item">
               <a class="nav-link" href="{% url 'allblogs' %}">Blog</a>
-            </li>
+            </li>      add again when blog is added-->
           </ul>
         </div>
       </nav>
